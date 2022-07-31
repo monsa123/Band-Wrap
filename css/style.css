@@ -1,0 +1,918 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ========== navbar css ============ */
+
+.nav-link {
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #fff!important;
+    padding: 12px!important;
+}
+.nav-link:hover {
+    background-color: #c2c2c2;
+    transition: .3s;
+}
+.fa.fa-search {
+    font-size: 18px;
+    color: #fff;
+    padding: 16px;
+}
+.fa.fa-search:hover {
+    background-color: #ff0000;
+}
+.navbar.navbar-expand-lg.navbar-light {
+    background-color: #000;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: left!important;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    margin-top: 5px!important;
+}
+
+/* ============= slider show css ============= */
+
+.img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.slider-containt {
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+.slider-containt h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+.slider-containt p {
+    margin: 0;
+    padding-top: 16px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* ==================== the band css ================== */
+
+.the-band {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 90px;
+  background-image: url(../images/parallax2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 1;
+  object-fit: cover;
+}
+.band-containt {
+    text-align: center;
+    color: #fff;
+}
+.band-containt  h2 {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'Lato';
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: #fff;
+}
+.love-music {
+  font-size: 17px;
+  color: #fff;
+  font-style: italic;
+}
+.band-containt p {
+  font-size: 17px;
+  line-height: 1.5;
+  font-family: 'Lato';
+  margin: 0;
+  padding: 10px 186px;
+  color: #fff;
+}
+.band {
+  text-align: center;
+  padding-top: 50px;
+}
+.band p {
+  font-size: 15px;
+}
+.name {
+  font-size: 20px;
+  font-family: 'Lato';
+  font-weight: 400;
+  color: #fff;
+}
+.over {
+  position: relative;
+  overflow: hidden;
+  transition: 0.8s;
+}
+.over:hover  img{
+  object-fit: cover;
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+.over img {
+  width: 100%;
+}
+.over::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgb(178 178 178 / 40%);
+}
+.over:hover::after{
+  transition: 0.8s;
+  opacity: 1;
+  width: 100%;
+  cursor: progress;
+}
+
+  /* ============== tour dates =============== */
+
+.tour-dates {
+   position: relative;
+   background-image: url(../images/parallax3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   width: 100%;
+   padding-bottom: 80px;
+}
+.date-containt  h1 {
+   text-align: center;
+   padding-top: 70px;
+   font-size: 32px;
+   font-family: 'Lato';
+   font-weight: 500;
+   color: #fff;
+  }
+.date-containt  p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lato';
+    font-style: italic;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 40px;
+    color: #fff;
+}
+.date-wrap p {
+    font-size: 17px;
+    font-family: 'Lato';
+    border-bottom: solid 1px #c3c3c3;
+    padding-bottom: 10px;
+    width: 100%;
+    color: #000;
+}
+.date-wrap {
+    margin-bottom: 50px;
+}
+.sold {
+    margin-left: 50px;
+    font-size: 15px;
+    font-family: 'Lato';
+    background-color: #db0000;
+    color: #fff;
+    padding: 2px 5px;
+}
+.sol {
+    position: absolute;
+    top: 31%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+    padding: 1px 9px;
+    border-radius: 50%;
+}
+.date-wrap {
+    background-color: #fff;
+    padding: 20px 0px;
+}
+.date-down {
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+.date-down img {
+   width: 100%;
+}
+.date-down h5 {
+    margin: 0;
+    padding: 15px 0px;
+    padding-left: 15px;
+}
+.date {
+    padding-left: 15px;
+    font-family: 'Lato';
+    font-size: 17px;
+    color: #9b9b9b;
+    margin: 0;
+}
+.date-down p {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Lato';
+    padding-left: 15px;
+    padding-right: 119px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+.btn {
+    padding-top: 10px;
+}
+.btn a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 8px 10px;
+    font-size: 16px;
+    font-family: 'Lato';
+}
+.btn a:hover {
+    background-color: #c3c3c3;
+    color: #000;
+    cursor: pointer;
+}
+.overlay {
+   position: relative;
+   transition: 0.8s;
+   overflow: hidden;
+}
+.overlay:hover img {
+    transform: scale(1.1);
+    transition: 0.8s;
+    cursor: progress;
+}
+
+/*================== contact portaion =============== */
+
+.contact-con h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 32px;
+}
+.contact-Wrap {
+    padding-bottom: 60px;
+}
+.contact-con {
+    padding-bottom: 50px;
+}
+.contact-con p {
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    font-size: 17px;
+    font-family: 'Lato';
+    font-style: italic;
+    color: gray;
+}
+.fa.fa-map-marker {
+    font-size: 30px;
+    margin-right: 20px;
+}
+.fa.fa-phone{
+    font-size: 25px;
+    margin-right: 20px;
+}
+.fa.fa-envelope {
+    font-size: 20px;
+    margin-right: 20px;
+}
+.contact {
+   display: inline;
+}
+.contact p {
+    font-size: 20px;
+    font-family: 'Lato';
+    font-weight: 500;
+}
+.corwn {
+    display: inline;
+}
+.wid {
+  width: 49%;
+  height: 40px;
+}
+.msg {
+  width: 99%;
+  margin-top: 10px;
+  height: 40px;
+}
+.wtn {
+  text-align: end;
+  margin-top: 25px;
+  margin: 0;
+  margin-top: 20px;
+  margin-right: 7px;
+}
+.wtn a {
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 8px;
+}
+.wtn a:hover {
+  background-color: #c1c1c1;
+  color: #000000;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+/* ============== map portaion ============== */
+
+.footer {
+  padding-top: 30px;
+  background-color: #000;
+}
+.map-wrap {
+  padding-top: 50px;
+}
+.map-wrap img {
+  width: 100%;
+}
+.footer-icon {
+  text-align: center;
+}
+.footer-icon a {
+  text-decoration: none;
+}
+.footer-icon i {
+  margin: 20px;
+  font-size: 24px;
+  color: #fff;
+}
+.fa.fa-facebook {
+    border: solid 2px #ff0000;
+    padding: 9px 14px;
+    border-radius: 50%;
+}
+.fa.fa-facebook:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+.fa.fa-instagram {
+    border: solid 2px #ff0000;
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+.fa.fa-instagram:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+.fa.fa-snapchat-ghost {
+    border: solid 2px #ff0000;
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+.fa.fa-snapchat-ghost:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+.fa.fa-pinterest-p {
+    border: solid 2px #ff0000;
+    padding: 9px 12px;
+    border-radius: 50%;
+}
+.fa.fa-pinterest-p:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+.fa.fa-twitter {
+    border: solid 2px #ff0000;
+    padding: 9px 12px;
+    border-radius: 50%;
+}
+.fa.fa-twitter:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+.fa.fa-linkedin {
+    border: solid 2px #ff0000;
+    padding: 9px 12px;
+    border-radius: 50%;
+}
+.fa.fa-linkedin:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+.footer-icon p {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  font-family: 'Lato';
+  letter-spacing: 1px;
+}
+
+/* ======================= mobile responsive csss ========================= */
+
+@media (min-width:1200px) and (max-width:1440px) {
+  .sol {
+      position: static;
+      padding: 3px 8px;
+  }
+
+.band-containt p {
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: 'Lato';
+    margin: 0;
+    padding: 10px 186px;
+    color: #fff;
+}
+.footer {
+    padding-top: 25px;
+    background-color: #000;
+}
+}
+
+@media (min-width:991px) and (max-width:1199px) {
+  .sol {
+    position: absolute;
+    top: 33%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+    padding: 1px 9px;
+    border-radius: 50%;
+}
+.band-containt p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Lato';
+    margin: 0;
+    padding: 10px 90px;
+    color: #fff;
+}
+}
+
+@media (min-width:768px) and (max-width:990px) {
+  .slider-containt h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 400;
+}
+.slider-containt p {
+    margin: 0;
+    padding-top: 13px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.band-containt p {
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: 'Lato';
+  margin: 0;
+  padding: 10px 0px;
+  color: #fff;
+}
+.band-containt  h2 {
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Lato';
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: #fff;
+}
+.love-music {
+  font-size: 16px;
+  color: #fff;
+  font-style: italic;
+}
+.over img {
+  width: 100%;
+  object-fit: cover;
+}
+.date-down {
+    background-color: #fff;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+.date-containt  h1 {
+   text-align: center;
+   padding-top: 60px;
+   font-size: 30px;
+   font-family: 'Lato';
+   font-weight: 500;
+   color: #fff;
+  }
+  .contact-con h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 30px;
+}
+.corwn {
+   margin-top: 25px;
+}
+.contact p {
+    font-size: 18px;
+    font-family: 'Lato';
+    font-weight: 500;
+}
+.contact-Wrap {
+    padding-bottom: 40px;
+}
+}
+
+@media (min-width:576px) and (max-width:767px) {
+  .sol {
+      position: static;
+      padding: 1px 4px;
+      font-size: 14px;
+  }
+  .slider-containt h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.slider-containt p {
+    margin: 0;
+    padding-top: 0px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.band-containt p {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: 'Lato';
+  margin: 0;
+  padding: 10px 0px;
+  color: #fff;
+}
+.band-containt  h2 {
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Lato';
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: #fff;
+}
+.love-music {
+  font-size: 14px;
+  color: #fff;
+  font-style: italic;
+}
+.over img {
+  width: 100%;
+  object-fit: cover;
+}
+.date-down {
+    background-color: #fff;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.date-containt  h1 {
+   text-align: center;
+   padding-top: 50px;
+   font-size: 28px;
+   font-family: 'Lato';
+   font-weight: 500;
+   color: #fff;
+  }
+  .contact-con h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 28px;
+}
+.corwn {
+   margin-top: 20px;
+}
+.contact p {
+    font-size: 14px;
+    font-family: 'Lato';
+    font-weight: 500;
+}
+.contact-Wrap {
+    padding-bottom: 30px;
+}
+.footer {
+  padding-top: 20px;
+  background-color: #000;
+}
+.footer-icon p {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  font-family: 'Lato';
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+.footer-icon {
+  text-align: center;
+}
+.footer-icon a {
+  text-decoration: none;
+}
+.footer-icon i {
+  margin: 15px;
+  font-size: 22px;
+  color: #fff;
+}
+.fa.fa-facebook {
+    border: solid 2px #ff0000;
+    padding: 7px 12px;
+    border-radius: 50%;
+}
+.fa.fa-facebook:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+.fa.fa-instagram {
+    border: solid 2px #ff0000;
+    padding: 8px 10px;
+    border-radius: 50%;
+}
+.fa.fa-instagram:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+.fa.fa-snapchat-ghost {
+    border: solid 2px #ff0000;
+    padding: 8px 10px;
+    border-radius: 50%;
+}
+.fa.fa-snapchat-ghost:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+.fa.fa-pinterest-p {
+    border: solid 2px #ff0000;
+    padding: 7px 12px;
+    border-radius: 50%;
+}
+.fa.fa-pinterest-p:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+.fa.fa-twitter {
+    border: solid 2px #ff0000;
+    padding: 7px 10px;
+    border-radius: 50%;
+}
+.fa.fa-twitter:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+.fa.fa-linkedin {
+    border: solid 2px #ff0000;
+    padding: 7px 11px;
+    border-radius: 50%;
+}
+.fa.fa-linkedin:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+}
+
+
+@media (min-width:320px) and (max-width:575px) {
+  .sol {
+      position: static;
+      padding: 1px 4px;
+      font-size: 14px;
+  }
+  .slider-containt h3 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 400;
+}
+.slider-containt p {
+    margin: 0;
+    padding-top: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.band-containt p {
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: 'Lato';
+  margin: 0;
+  padding: 8px 0px;
+  color: #fff;
+}
+.band-containt  h2 {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Lato';
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: #fff;
+}
+.love-music {
+  font-size: 14px;
+  color: #fff;
+  font-style: italic;
+}
+.over img {
+  width: 100%;
+  object-fit: cover;
+}
+.date-down {
+    background-color: #fff;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.date-containt  h1 {
+   text-align: center;
+   padding-top: 50px;
+   font-size: 24px;
+   font-family: 'Lato';
+   font-weight: 500;
+   color: #fff;
+  }
+  .contact-con h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 24px;
+}
+.corwn {
+   margin-top: 20px;
+}
+.contact p {
+    font-size: 14px;
+    font-family: 'Lato';
+    font-weight: 500;
+}
+.contact-Wrap {
+    padding-bottom: 30px;
+}
+.footer {
+  padding-top: 15px;
+  background-color: #000;
+}
+.footer-icon p {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  font-family: 'Lato';
+  font-size: 14px;
+}
+.footer-icon {
+  text-align: center;
+}
+.footer-icon a {
+  text-decoration: none;
+}
+.footer-icon i {
+  margin: 5px;
+  font-size: 14px;
+  color: #fff;
+}
+.fa.fa-facebook {
+    border: solid 2px #ff0000;
+    padding: 3px 7px;
+    border-radius: 50%;
+}
+.fa.fa-facebook:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+.fa.fa-instagram {
+    border: solid 2px #ff0000;
+    padding: 3px 5px;
+    border-radius: 50%;
+}
+.fa.fa-instagram:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+.fa.fa-snapchat-ghost {
+    border: solid 2px #ff0000;
+    padding: 3px 5px;
+    border-radius: 50%;
+}
+.fa.fa-snapchat-ghost:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+.fa.fa-pinterest-p {
+    border: solid 2px #ff0000;
+    padding: 3px 6px;
+    border-radius: 50%;
+}
+.fa.fa-pinterest-p:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+.fa.fa-twitter {
+    border: solid 2px #ff0000;
+    padding: 3px 6px;
+    border-radius: 50%;
+}
+.fa.fa-twitter:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+.fa.fa-linkedin {
+    border: solid 2px #ff0000;
+    padding: 3px 6px;
+    border-radius: 50%;
+}
+.fa.fa-linkedin:hover {
+   background-color: #ff0000;
+   transition: 0.8s;
+}
+.footer-icon p {
+   display: none;
+}
+.footer {
+    padding-top: 10px;
+    background-color: #000;
+    padding-bottom: 8px;
+}
+.the-band {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    background-image: url(../images/parallax2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 1;
+    object-fit: cover;
+}
+.date-containt h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 22px;
+    font-family: 'Lato';
+    font-weight: 500;
+    color: #fff;
+}
+.date-containt p {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-style: italic;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 25px;
+}
+.contact-con h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 22px;
+}
+.contact-con p {
+    margin: 0;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-style: italic;
+    color: gray;
+}
+.contact-con {
+    padding: 0;
+    padding-bottom: 25px;
+}
+.col-sm-12.col-md-12.col-lg-6.col-xl-6.col-xxl-6.corwn {
+    margin-top: 15px;
+}
+.contact-Wrap {
+    padding-bottom: 0px;
+}
+}
